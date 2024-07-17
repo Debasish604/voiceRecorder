@@ -1,0 +1,212 @@
+.tooltip-container {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.tooltip-d {
+    position: absolute;
+    z-index: 1111 !important;
+    background-color: #464646;
+    color: #fff;
+    padding: 5px;
+    /* border-radius: 5px; */
+    font-size: 14px;
+    /* top: -32px; */
+    bottom: 39px;
+    left: 46%;
+    width: 360px;
+    height: 150px;
+    /* transform: translateX(-50%); */
+    box-shadow: 0px 0px 10px #000;
+
+}
+
+.tooltip-d:after {
+    /* content: "";
+    position: relative;
+    bottom: 100%;
+    background-color: #0545cf;
+    top: -12px;
+    left: 6px;
+    width: 15px;
+    height: 22px;
+    transform: rotate(54.5deg);
+    transition: all 0.3s ease 0s !important;
+    display: block
+   */
+    content: "";
+    position: absolute;
+    bottom: -12%;
+    left: 0%;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #464646 transparent;
+    transform: rotate(90.5deg)
+}
+
+.tooltip-d3 {
+    position: absolute;
+    z-index: 1;
+    background-color: #464646;
+    color: #fff;
+    padding: 5px;
+    /* border-radius: 5px; */
+    font-size: 14px;
+    bottom: 39px;
+    right: 7px;
+    width: 400px;
+    height: 140px;
+    box-shadow: 0px 0px 10px #000;
+
+}
+
+.tooltip-d3:after  {
+    content: "";
+    position: absolute;
+    bottom: -8%;
+    right: -20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #464646 transparent;
+    transform: rotate(47.5deg);
+
+}
+
+.icon-container {
+    cursor: pointer;
+}
+
+/* .tooltip-img {
+    height: 140px;
+    width: 140px;
+    background: no-repeat;
+    z-index: 9;
+} */
+
+.tooltip-img {
+    height: 140px;
+    width: 123px;
+    background: no-repeat;
+    z-index: 9;
+    position: relative;
+    left: -5px;
+    top: -5px;
+}
+
+.tooltip-body {
+    display: flex;
+}
+
+.tooltip-text {
+    padding: 12px;
+    overflow: auto;
+    height: 136px;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: auto; /* Center-align the tooltip within its container */
+    margin-right: auto; /* Center-align the tooltip within its container */
+}
+
+.tooltip-text .h6 {
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tooltip-text .h8 {
+    margin-top: -10px;
+    text-align: center;
+}
+
+
+
+.arrow-icon_up{
+    color: #e6ff07;
+    font-size: 15px;
+    position: absolute;
+    z-index: 15;
+    transform: rotate(-45.5deg);
+    left: 24px;
+    top: 71px;
+    stroke-width: 35px;
+}
+
+.arrow-icon{
+    color: #e6ff07;
+    font-size: 50px;
+    position: absolute;
+    z-index: 15;
+    transform: rotate(-45.5deg);
+    left: 30px;
+    top: 55px;
+    stroke-width: 15px;
+}
+.arrow-icon_down{
+    color: #e6ff07;
+    font-size: 15px;
+    position: absolute;
+    z-index: 15;
+    transform: rotate(-45.5deg);
+    left: 54px;
+    top: 92px;
+    stroke-width: 35px;
+}
+
+.arrow-icon_top {
+    color: #e6ff07;
+    font-size: 16px;;
+    position: absolute;
+    z-index: 15;
+    transform: rotate(-45.5deg);
+    right: 4px;
+    top: 5px;
+    stroke-width: 25px;
+}
+
+.tooltip-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    padding: 10px;
+    z-index: 999; /* Ensure the tooltip appears on top of other elements */
+}
+
+@media (max-width: 480px) {
+   
+    .tooltip-d { 
+        left: unset !important;
+        right: -14% !important;
+    }
+    .tooltip-d:after {
+        left: unset !important;
+        right: 0 !important;
+    }
+  
+
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tooltip-d { 
+        left: unset !important;
+        right: 0 !important;
+    }
+    .tooltip-d:after {
+        left: unset !important;
+        right: 0 !important;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1230px) {
+    .tooltip-d {
+      bottom: 36px ;
+    }
+  
+
+  }

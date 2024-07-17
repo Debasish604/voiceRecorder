@@ -1,0 +1,95 @@
+.bg-image {
+    height: 100vh !important;
+    width: 100%;
+    /* background-color: #070404; */
+    /* background-image: url('../assets/image/bcr.jpeg'); */
+    background-size: cover;
+    background-repeat: round;
+  }
+  
+  .card-custom {
+    /* position: relative; */
+    background-color: rgba(243, 243, 243, 0.208);
+    color: rgb(243, 243, 243);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+    min-height: 285px;
+    box-sizing: border-box;
+  
+  }
+  
+  .card-custom:hover {
+    cursor: pointer;
+    background-color: rgba(243, 243, 243, 0.112);
+    box-shadow: 4px 4px 8px 4px rgba(195, 194, 194, 0.2), 0 6px 20px 0 rgba(173, 171, 171, 0.19);
+    /* transition: box-shadow 2s ease-in; */
+    transition: box-shadow 1s;
+  
+  }
+  /* .card p {
+    color: #dcd7d7;
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    margin-right: 5px;
+    letter-spacing: .4px;
+  } */
+  .card-body{
+    text-align: justify;
+  }
+  .button-arrow{
+      border: none;
+    background: #4190af;
+    /* padding: 5px; */
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .button-arrow:hover{
+    cursor: pointer;
+    background-color: #2980b9;
+  }
+  
+  .logo-small {
+    color:white;
+    font-size: 18px;
+    /* padding-top: 5px; */
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between
+  }
+  .tittle-text{
+    font-size: 20px;
+    letter-spacing: .4px;
+    color: rgb(234, 231, 231);
+  
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: end
+  }
+  
+  .icon {
+    font-size: 1.5em;
+    color: #faf8f8;
+  
+  }
+  .icon-hand{
+    font-size:30px;
+    color: #faf8f8;
+  }
+  
+  
+  
+  @media (max-width: 900px) {
+    .bg-image {
+      height: 100% !important
+    }
+  }

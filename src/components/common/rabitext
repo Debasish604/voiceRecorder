@@ -1,0 +1,99 @@
+import React, { useState, useEffect } from 'react';
+
+const CustomChatbot = () => {
+  const [messages, setMessages] = useState([
+    { text: 'Welcome! How can I assist you?', sender: 'bot' },
+  ]);
+
+  const handleButtonClick = async (response) => {
+    const userMessage = { text: response, sender: 'user' };
+    setMessages([...messages, userMessage]);
+
+    // Simulate bot typing
+    // await simulateBotTyping('Hello Rabi How can i help you?');
+
+    const botResponseMessage = { text: generateBotResponse(response), sender: 'bot' };
+    setMessages([...messages.slice(0, -1), botResponseMessage]);
+  };
+
+  const simulateBotTyping = async (data) => {
+    const typingMessage = { text: 'Typing...', sender: 'bot' };
+    setMessages([...messages, typingMessage]);
+
+    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+    // Simulate typing effect
+    const botTypingText = data;
+    for (let i = 0; i < botTypingText.length; i++) {
+      await delay(100); // Adjust the delay between characters as needed
+      typingMessage.text += botTypingText[i];
+      setMessages([...messages.slice(0, -1), typingMessage]);
+    }
+
+    // Wait for a brief moment before clearing the 'Typing...' message
+    await delay(500);
+    setMessages([...messages.slice(0, -1)]);
+  };
+
+  const generateBotResponse = (userInput) => {
+    if (userInput.toLowerCase() === 'yes') {
+      return 'Great! You chose yes.';
+    } else if (userInput.toLowerCase() === 'no') {
+      return 'Oh, you chose no.';
+    } else {
+      return "I'm sorry, I only understand yes or no.";
+    }
+  };
+
+  useEffect(() => {
+    const chatDiv = document.getElementById('chatDiv');
+    chatDiv.scrollTop = chatDiv.scrollHeight;
+  }, [messages]);
+
+  return (
+    <div>
+      <div
+        id="chatDiv"
+        style={{
+          height: '300px',
+          minWidth: '450px',
+          overflowY: 'auto',
+          border: '1px solid #ccc',
+          padding: '10px',
+        }}
+      >
+        {messages.map((message, index) => (
+          <div
+            key={index}
+            style={{
+              marginBottom: '10px',
+              textAlign: message.sender === 'user' ? 'right' : 'left',
+            }}
+          >
+            <span
+              style={{
+                color: 'black',
+                padding: '5px',
+                borderRadius: '5px',
+                background:
+                  message.sender === 'user' ? '#4CAF50' : '#f1f1f1',
+                color: message.sender === 'user' ? 'black' : 'red',
+              }}
+            >
+              {message.text}
+            </span>
+          </div>
+        ))}
+        {/* Render buttons below the last bot reply */}
+        {messages.length > 0 && messages[messages.length - 1].sender === 'bot' && (
+          <div style={{ marginTop: '10px', textAlign: 'left' }}>
+            <button onClick={() => handleButtonClick('yes')}>Yes</button>
+            <button onClick={() => handleButtonClick('no')}>No</button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default CustomChatbot;

@@ -1,0 +1,25 @@
+/* Style the table header */
+.table-container{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.table-header {
+ 
+    color: chocolate;
+}
+
+/* Style the table rows */
+.table-row {
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #726e6e;
+
+    }
+}
+
+/* Style the table cells */
+.table-cell {
+    padding: 20px;
+}
+

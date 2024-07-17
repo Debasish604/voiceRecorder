@@ -1,0 +1,155 @@
+
+header {
+    color: #fcf7f7;
+    padding: 0px;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+h1 {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: normal;
+
+}
+.header-tittle1 {
+    font-size: 25px;
+    margin-right: 5px;
+    color: rgb(178, 176, 176) !important;
+    /* margin-left: 20px; */
+}
+.header-tittle1:hover{
+    cursor: pointer;
+}
+
+.header-tittle {
+    font-size: 25px;
+    margin-right: 5px;
+    color: rgb(178, 176, 176) !important;
+    margin-left: 20px;
+}
+
+.header-line {
+    color: rgb(16, 133, 114);
+    margin-right: 250px;
+    flex: 1;
+    
+  }
+.hr-header{
+    position: relative;
+    left: 104px;
+    width: 313px;
+    top: -17px;
+}
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.user-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.name {
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.dropdown1 {
+    position: absolute;
+    bottom: 4;
+    cursor: pointer;
+}
+
+.settings-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.styled-button{
+    background-color: transparent;
+    height: 30px;
+    width: 93px;
+    color: #fcf7f7;
+    padding: 18px 28px;
+}
+
+
+.styled-button:hover {
+    cursor: pointer;
+    background-color: #2980b9;
+}
+.styled-button1{
+    background-color: transparent;
+    height: 30px;
+    width: 93px;
+    color: #fcf7f7;
+    padding: 18px 28px;
+}
+
+
+.styled-button1:hover {
+    cursor: pointer;
+    background-color: #2980b9;
+}
+
+.dropdown-content1 {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #171414;
+    box-shadow: 0 2px 4px rgba(245, 239, 239, 0.1);
+    padding: 10px;
+    display: none;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.user-section {
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: -28px;
+}
+
+
+.header-content {
+    padding-right: 20px;
+    color: rgb(142, 140, 140);
+    
+}
+
+
+.name1 {
+    display: inline-block;
+    width: 30px; /* Set your desired width for the circle */
+    height: 30px; /* Set your desired height for the circle */
+    border-radius: 50%; /* Make it a circle */
+    /* background-color: rgba(255, 255, 255, 0.247);  */
+    background-color: rgba(238, 224, 178, 0.247); /* Set the background color to white */
+    text-align: center;
+    line-height: 30px; /* Center the text vertically */
+    font-size: 14px; /* Set your desired font size */
+    margin-right: 8px; /* Add some margin if needed */
+  }
+  
+  .name1 letter {
+    color: black; /* Set the color of the letter inside the circle */
+  }
+   

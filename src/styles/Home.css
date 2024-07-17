@@ -1,0 +1,1187 @@
+.main-constainer {
+    background-image: url('../assets/image/bg-6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* padding-top: 30px !important; */
+    /* padding-left: 60px !important; */
+}
+
+.logout-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+.logout-button:hover {
+    background-color: #ff8c66;
+}
+
+.logout-icon {
+    cursor: pointer;
+    font-size: 27px;
+    color: #FFB600;
+    position: fixed;
+    top: 16px;
+    right: 36px;
+    z-index: 99;
+}
+
+.logout-icon:hover {
+    color: #ff8c66;
+
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 75px;
+}
+
+.right-section {
+    margin-top: 0px;
+}
+
+.left-div {
+    margin-top: 70px !important;
+}
+
+.right-div {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 150px !important;
+
+}
+
+.pwc-logo {
+    height: 90px;
+    width: 110px !important;
+    /* display: flex;
+    position: relative;
+    top: 20px; */
+
+}
+
+.cog-logo {
+    height: 55px;
+    width: 260px !important;
+    margin-top: 60px ;
+    margin-bottom: 20px;
+}
+
+.text-section {
+    width: 350px;
+}
+
+.text-h {
+    font-family: 'Helvetica-Thin';
+    text-align: left;
+    font-size: 29px;
+    letter-spacing: 1.58px;
+    color: #FFB600;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.text-desc {
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 15px;
+
+}
+
+.first-card {
+    padding: 33px !important;
+    /* min-height: 269px !important; */
+    width: 331px !important;
+    margin-top: 179px !important;
+    color: #000000;
+    background: #FFB600 0% 0% no-repeat padding-box;
+    opacity: 0.85;
+}
+
+.second-card {
+    margin-top: 127px !important;
+    color: #FFFFFF;
+    background: #D04A02 0% 0% no-repeat padding-box;
+    opacity: 0.85;
+    /* min-height: 271px; */
+    width: 348px !important;
+    padding: 33px !important;
+}
+
+.third-card {
+    color: #FFFFFF;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.85 !important;
+    /* padding: 40px !important; */
+    /* min-height: 300px; */
+    width: 350px !important;
+    padding: 35px !important;
+    margin-top: 68px !important;
+}
+
+.info-tittle {
+    font-size: 16px;
+    font-weight: 700;
+    float: inline-start;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.info-tittle1 {
+    font-size: 18px;
+    font-weight: 700;
+    float: inline-start;
+    letter-spacing: 0.62px;
+    color: #000000;
+    font-family: 'Helvetica-Bold';
+}
+
+.info-tittle2 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.62px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: relative;
+    /* left: -35px; */
+    font-family: 'Helvetica-Bold';
+}
+
+.info-tittle3 {
+    font-size: 16px;
+    font-weight: 700;
+    float: inline-start;
+    letter-spacing: 0.62px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.info-tittle4 {
+    font-size: 22px;
+    font-weight: 700;
+    float: inline-start;
+    letter-spacing: 0.62px;
+    color: #FFB600;
+    opacity: 1;
+    font-family: 'Helvetica-Bold';
+}
+
+.info-tittle5 {
+    font-size: 16px;
+    font-weight: 700;
+    /* float: inline-start; */
+    letter-spacing: 0.62px;
+    color: #FFB600;
+    opacity: 1;
+}
+
+
+.info-btext {
+    color: #000000;
+    margin-top: 2px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+}
+
+.info-btext2 {
+    color: #FFFFFF;
+    margin-top: 2px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+}
+
+.info-btext3 {
+    color: #FFFFFF;
+    margin-top: 2px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: 'Helvetica';
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.info-label {
+    letter-spacing: 0.7px;
+    color: #000000;
+    opacity: 1;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info-label2 {
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info-label3 {
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+    opacity: 1;
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.footer-ul {
+    color: #000000;
+    font-weight: 600;
+    margin-left: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.footer-ul2 {
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.footer-ul3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-left: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.footer-li {
+    padding: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 14px;
+
+}
+
+.footer-li2 {
+    padding: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 14px;
+
+}
+
+.footer-li:hover {
+    color: #521f1fe3;
+}
+
+.footer-li2:hover {
+    color: #cbc5c5e3;
+}
+
+
+.footer-li label {
+    cursor: pointer !important;
+}
+
+
+.info-icon {
+    float: inline-end;
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+    background: #FFB600 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: 1px solid #FFB600;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #a77803;
+
+}
+
+.info-icon1 {
+    float: inline-end;
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+
+.icon-contan {
+    margin-right: 10px;
+}
+
+.heade-icon {
+    display: flex;
+}
+
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) and (max-width: 1148px) { */
+@media only screen and (min-width: 768px) {
+    .right-div {
+        top: 10px !important;
+    }
+    .pwc-logo {
+        height: 60px;
+        width: 90px !important;
+    }
+    .cog-logo {
+        height: 30px;
+        width: 148px !important;
+        margin-top: 30px !important;
+        margin-bottom: 5px !important;
+    }
+    .text-section {
+        width: 215px;
+    }
+
+    .text-desc {
+        font-size: 7px;
+        margin-bottom: 6px
+    }
+
+    .text-h {
+        font-size: 16px !important;
+        margin-bottom: 2px;
+    }
+    .text-section {
+        width: 215px;
+    }
+
+
+    .left-section {
+        left: 35px;
+    }
+
+    .first-card {
+        padding: 20px !important;
+        height: 220px !important;
+        width: 350px !important;
+        margin-top: 140px !important;
+    }
+
+    .info-tittle {
+        font-size: 10px;
+    }
+
+    .info-btext {
+        font-size: 8px;
+    }
+
+    .info-tittle1 {
+        font-size: 10px;
+    }
+
+    .second-card {
+        padding: 20px !important;
+        height: 250px !important;
+        width: 355px !important;
+        margin-top: 110px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 10px;
+    }
+
+    .info-btext2 {
+        font-size: 8px;
+    }
+
+    .info-tittle2 {
+        font-size: 12px;
+    }
+
+    .third-card {
+        padding: 20px !important;
+        height: 295px !important;
+        width: 360px !important;
+        margin-top: 65px !important
+    }
+
+    .info-btext3 {
+        font-size: 8px;
+        margin-bottom: 4px;
+    }
+
+    .footer-li2 {
+        font-size: 8px;
+    }
+
+    .footer-li {
+        font-size: 8px;
+    }
+
+    .info-tittle5 {
+        font-size: 12px;
+    }
+
+    .info-tittle4 {
+        font-size: 12px;
+    }
+    .box-icon-p {
+        height: 32px;
+        width: 32px;
+    }
+
+    .info-icon1 {
+        height: 13px;
+        width: 13px;
+    }
+
+    .info-icon {
+        height: 10px;
+        width: 10px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+/* @media only screen and (min-width: 1149px) and (max-width: 1240px) { */
+@media only screen and (min-width: 992px) {
+    .right-div {
+        top: 10px !important;
+    }
+
+    .first-card {
+        padding: 20px !important;
+        height: 210px !important;
+        width: 331px !important;
+        margin-top: 190px !important;
+    }
+
+    .info-tittle {
+        font-size: 12px;
+    }
+
+    .info-btext {
+        font-size: 8px;
+    }
+
+    .info-tittle1 {
+        font-size: 12px;
+    }
+
+    .second-card {
+        padding: 20px !important;
+        height: 251px !important;
+        width: 331px !important;
+        margin-top: 149px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 8px;
+    }
+
+    .info-tittle2 {
+        font-size: 14px;
+    }
+
+    .third-card {
+        padding: 20px !important;
+        height: 285px !important;
+        width: 331px !important;
+        margin-top: 115px !important;
+    }
+
+    .info-btext3 {
+        font-size: 8px;
+    }
+
+    .footer-li2 {
+        font-size: 10px;
+    }
+
+    .footer-li {
+        font-size: 10px;
+    }
+
+    .info-tittle5 {
+        font-size: 12px;
+    }
+
+    .info-tittle4 {
+        font-size: 14px;
+    }
+
+    .text-section {
+        width: 215px;
+    }
+
+    .text-desc {
+        font-size: 7px !important;
+        margin-bottom: 6px !important
+    }
+
+    .cog-logo {
+        height: 28px;
+        width: 145px !important;
+        margin-top: 45px !important;
+        margin-bottom: 10px !important
+    }
+
+    .text-h {
+        font-size: 18px !important;
+    }
+
+    .left-section {
+        left: 35px;
+    }
+
+    .box-icon-p {
+        height: 35px;
+        width: 35px;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media only screen and (min-width: 1241px) and (max-width: 1400px) { */
+@media only screen and (min-width: 1200px ) {
+    .right-div {
+        top: 20px !important;
+    }
+
+    .left-div {
+        margin-top: 40px !important;
+    }
+
+    .text-section {
+        width: 300px;
+    }
+
+    .text-desc {
+        font-size: 10px;
+    }
+
+    .text-section {
+        width: 250px;
+    }
+
+    .text-h {
+        font-size: 20px !important;
+    }
+
+
+    .pwc-logo {
+        height: 64px;
+        width: 90px !important;
+    }
+
+    .cog-logo {
+        height: 40px;
+        width: 171px !important;
+        margin-top: 65px !important;
+        margin-bottom: 19px !important;
+    }
+
+
+    .left-section {
+        left: 35px;
+    }
+
+    .first-card {
+        padding: 25px !important;
+        height: 240px !important;
+        width: 331px !important;
+        margin-top: 230px !important;
+    }
+
+    .info-tittle {
+        font-size: 12px;
+    }
+
+    .info-btext {
+        font-size: 10px;
+    }
+
+    .info-tittle1 {
+        font-size: 12px;
+    }
+
+    .second-card {
+        padding: 25px !important;
+        height: 285px !important;
+        width: 331px !important;
+        margin-top: 185px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 10px;
+    }
+
+    .info-tittle2 {
+        font-size: 14px;
+    }
+
+    .third-card {
+        padding: 25px !important;
+        height: 329px !important;
+        width: 331px !important;
+        margin-top: 142px !important;
+    }
+
+    .info-btext3 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    .footer-li2 {
+        font-size: 12px;
+    }
+
+    .footer-li {
+        font-size: 12px;
+    }
+
+    .info-tittle5 {
+        font-size: 12px;
+    }
+
+    .info-tittle4 {
+        font-size: 14px;
+    }
+
+    .text-section {
+        width: 215px;
+    }
+
+    .text-desc {
+        font-size: 8px !important;
+        margin-bottom: 6px !important
+    }
+
+
+
+    .box-icon-p {
+        height: 35px;
+        width: 35px;
+    }
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media only screen and (min-width: 1401px) and (max-width: 1600px) { */
+@media only screen and (min-width: 1400px) {
+
+    .right-div {
+        top: 70px !important;
+    }
+
+    .left-div {
+        margin-top: 80px !important;
+    }
+
+    .text-section {
+        width: 300px;
+    }
+
+    .text-desc {
+        font-size: 10px;
+    }
+
+    .text-section {
+        width: 250px;
+    }
+
+    .text-h {
+        font-size: 18px;
+    }
+
+    .left-section {
+        left: 30px;
+    }
+
+    .cog-logo {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    .first-card {
+        padding: 30px !important;
+        height: 280px !important;
+        width: 331px !important;
+        margin-top: 215px !important;
+    }
+
+    .info-tittle {
+        font-size: 12px;
+    }
+
+    .info-btext {
+        font-size: 12px;
+    }
+
+    .info-tittle1 {
+        font-size: 12px;
+    }
+
+    .second-card {
+        padding: 30px !important;
+        height: 325px !important;
+        width: 331px !important;
+        margin-top: 170px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 12px;
+    }
+
+    .info-tittle2 {
+        font-size: 14px;
+    }
+
+    .third-card {
+        padding: 30px !important;
+        height: 375px !important;
+        width: 331px !important;
+        margin-top: 120px !important;
+    }
+
+    .info-btext3 {
+        font-size: 12px;
+    }
+
+    .footer-li2 {
+        font-size: 12px;
+    }
+
+    .footer-li {
+        font-size: 12px;
+    }
+
+    .info-tittle5 {
+        font-size: 12px;
+    }
+
+    .info-tittle4 {
+        font-size: 14px;
+    }
+
+    .text-section {
+        width: 240px;
+    }
+
+    .text-desc {
+        font-size: 10px !important;
+        margin-bottom: 6px
+    }
+
+    .cog-logo {
+        height: 35px;
+        width: 165px !important;
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+
+    .text-h {
+        font-size: 18px;
+    }
+
+    .left-section {
+        left: 35px;
+    }
+
+    .box-icon-p {
+        height: 38px;
+        width: 38px;
+    }
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1780px) {
+    .right-div {
+        top: 120px !important;
+    }
+
+    .left-div {
+        margin-top: 60px !important;
+    }
+
+    .text-section {
+        width: 215px;
+    }
+
+
+
+    .cog-logo {
+        height: 35px;
+        width: 165px !important;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+
+    /* .cog-logo {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    } */
+
+
+    .text-h {
+        font-size: 22px !important;
+    }
+
+
+    /* .text-section {
+        width: 300px;
+    } */
+
+    .text-desc {
+        font-size: 12px !important;
+    }
+
+    .text-section {
+        width: 300px;
+    }
+
+    .left-section {
+        left: 30px;
+    }
+
+
+    .first-card {
+        padding: 30px !important;
+        height: 280px !important;
+        width: 331px !important;
+        margin-top: 215px !important;
+    }
+
+    .info-tittle {
+        font-size: 12px;
+    }
+
+    .info-btext {
+        font-size: 12px;
+    }
+
+    .info-tittle1 {
+        font-size: 12px;
+    }
+
+    .second-card {
+        padding: 30px !important;
+        height: 325px !important;
+        width: 331px !important;
+        margin-top: 170px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 12px;
+    }
+
+    .info-tittle2 {
+        font-size: 14px;
+    }
+
+    .third-card {
+        padding: 30px !important;
+        height: 375px !important;
+        width: 331px !important;
+        margin-top: 120px !important;
+    }
+
+    .info-btext3 {
+        font-size: 12px;
+    }
+
+    .footer-li2 {
+        font-size: 12px;
+    }
+
+    .footer-li {
+        font-size: 12px;
+    }
+
+    .info-tittle5 {
+        font-size: 12px;
+    }
+
+    .info-tittle4 {
+        font-size: 14px;
+    }
+
+
+
+    .box-icon-p {
+        height: 38px;
+        width: 38px;
+    }
+    .pwc-logo {
+        height: 80px;
+        width: 120px !important;
+    }
+}
+@media only screen and (min-width: 1781px) and (max-width: 2020px) {
+    .right-div {
+        top: 120px !important;
+    }
+
+    .left-div {
+        margin-top: 30px !important;
+    }
+
+    .text-section {
+        width: 215px;
+    }
+
+    .text-desc {
+        font-size: 14px !important;
+    }
+
+    .cog-logo {
+        height: 60px;
+        width: 250px !important;
+        margin-top: 90px !important;
+        margin-bottom: 15px !important
+    }
+
+
+    .text-h {
+        font-size: 26px !important;
+    }
+
+
+    
+
+    .text-section {
+        width: 380px;
+    }
+
+    .left-section {
+        left: 30px;
+    }
+
+
+    .first-card {
+        padding: 30px !important;
+        height: 300px !important;
+        width: 340px !important;
+        margin-top: 200px !important;
+    }
+
+    .info-tittle {
+        font-size: 15px;
+    }
+
+    .info-btext {
+        font-size: 14px;
+    }
+
+    .info-tittle1 {
+        font-size: 14px;
+    }
+
+    .second-card {
+        padding: 30px !important;
+        height: 351px !important;
+        width: 340px !important;
+        margin-top: 149px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 14px;
+    }
+
+    .info-tittle2 {
+        font-size: 17px;
+    }
+    .third-card {
+        padding: 30px !important;
+        height: 405px !important;
+        width: 340px !important;
+        margin-top: 96px !important;
+    }
+
+    .info-btext3 {
+        font-size: 14px;
+    }
+
+    .footer-li2 {
+        font-size: 16px;
+    }
+    .right-div {
+        top: 167px !important;
+    }
+
+    .footer-li {
+        font-size: 16px;
+    }
+
+    .info-tittle5 {
+        font-size: 15px;
+    }
+
+    .info-tittle4 {
+        font-size: 17px;
+    }
+
+
+    .box-icon-p {
+        height: 44px;
+        width: 44px;
+    }
+    .pwc-logo {
+        height: 100px;
+        width: 150px !important;
+    }
+}
+@media only screen and (min-width: 2021px) and (max-width: 2480px) {
+    .right-div {
+        top: 120px !important;
+    }
+
+    .left-div {
+        margin-top: 30px !important;
+    }
+
+    .text-section {
+        width: 215px;
+    }
+
+    .text-desc {
+        font-size: 14px !important;
+    }
+
+    .cog-logo {
+        height: 60px;
+        width: 250px !important;
+        margin-top: 90px !important;
+        margin-bottom: 15px !important
+    }
+
+
+    .text-h {
+        font-size: 26px !important;
+    }
+
+
+    
+
+    .text-section {
+        width: 380px;
+    }
+
+    .left-section {
+        left: 50px;
+    }
+
+
+    .first-card {
+        padding: 30px !important;
+        height: 330px !important;
+        width: 340px !important;
+        margin-top: 200px !important;
+    }
+
+    .info-tittle {
+        font-size: 15px;
+    }
+
+    .info-btext {
+        font-size: 16px;
+    }
+
+    .info-tittle1 {
+        font-size: 18px;
+    }
+
+    .second-card {
+        padding: 30px !important;
+        height: 381px !important;
+        width: 340px !important;
+        margin-top: 149px !important;
+    }
+
+    .info-tittle3 {
+        font-size: 12px;
+    }
+
+    .info-btext2 {
+        font-size: 16px;
+    }
+
+    .info-tittle2 {
+        font-size: 21px;
+    }
+    .third-card {
+        padding: 30px !important;
+        height: 435px !important;
+        width: 340px !important;
+        margin-top: 96px !important;
+    }
+
+    .info-btext3 {
+        font-size: 16px;
+    }
+
+    .footer-li2 {
+        font-size: 16px;
+    }
+    .right-div {
+        top: 167px !important;
+    }
+
+    .footer-li {
+        font-size: 16px;
+    }
+
+    .info-tittle5 {
+        font-size: 15px;
+    }
+
+    .info-tittle4 {
+        font-size: 19px;
+    }
+
+
+    .box-icon-p {
+        height: 44px;
+        width: 44px;
+    }
+    .pwc-logo {
+        height: 100px;
+        width: 150px !important;
+    }
+}

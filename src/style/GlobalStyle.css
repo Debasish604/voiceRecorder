@@ -1,0 +1,65 @@
+.sekeltonContainer{
+    background-color: #e6e6e6;
+   border-radius: 10px;
+   min-height: 420px;
+   padding: 10px;
+   max-height: fit-content;
+  
+}
+.dataLoader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  min-height: 365px;
+}
+.inPutSectionView{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.rowTableCell{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.rowTableCellData{
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+
+._u5cITtZnGk9D_6uoElx .jvectormap-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    touch-action: none;
+    height: 350px !important;
+}
+.chat-icon{
+  color: #3498db;
+  cursor: pointer;
+}
+
+.sekeltonContainer1{
+  background-color: #e6e6e6;
+ border-radius: 19px;
+ min-height: 420px;
+ padding: 10px;
+ width: 495px;
+ max-height: -moz-fit-content;
+ max-height: fit-content;
+
+}
+.sekeltonContainer2{
+  background-color: #e6e6e6;
+ border-radius: 19px;
+ min-height: 250px;
+ padding: 10px;
+ width: 480px;
+ max-height: -moz-fit-content;
+ max-height: fit-content;
+
+}

@@ -1,0 +1,345 @@
+
+
+.App {
+    background-image: url('../assets/image/bg-6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding-top: 30px !important;
+    padding-left: 60px !important;
+
+    /* overflow-y: scroll; */
+}
+
+.login-cognixio-card {
+    background: #D04A02 0% 0% no-repeat padding-box;
+    box-shadow: -34px 0px 22px #00000029;
+    padding: 18px;
+    /* border-radius: 8px; */
+    /* width: 300px; */
+    margin-left: auto;
+    /* margin-right: 0px; */
+    margin-top: -87px !important;
+    height: 410px !important;
+    width: 361px !important;
+}
+input[type="checkbox"] {
+    background: #f0eaea;    
+}
+
+.Sign-in {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: 1.41px;
+    padding: 20px;
+    margin-left: 37px !important;
+}
+
+.form_label {
+    /* margin-bottom: 1px; */
+    margin-left: 58px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.form_control {
+    width: calc(100% - 117px);
+    padding: 5px 0;
+    margin-bottom: 5px;
+    border: none;
+    /* border-bottom: 1px solid #fff; */
+    border-bottom: 1px solid #ffffff52;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+    margin-left: 57px !important;
+    position: relative;
+    color: white;
+}
+
+.form_control:focus {
+    border-bottom-color: #fff;
+    /* Change bottom border color on focus */
+}
+
+.remember-me {
+    color: white;
+}
+
+.checkbox-label {
+    margin-bottom: 13px;
+    margin-left: 54px !important;
+    border: none;
+    background: no-repeat;
+    margin-top: 20px;
+}
+
+.loginBtn {
+    background: #FFB600 0% 0% no-repeat padding-box;
+    color: #464646;
+    order: none;
+    /* border-radius: 4px; */
+    padding: 5px 14px;
+    cursor: pointer;
+    margin-left: 63px !important;
+    font-size: 17px;
+    border: 3px solid #FFFFFF;
+    width: 120px;
+    /* height: 0px; */
+    font-family: 'Helvetica-Bold';
+}
+
+
+.loginBtn:hover {
+    background-color:#c58f05;
+}
+
+.login-text-h {
+    top: 214px;
+    font-size: 36px !important;
+    margin-left: 131px;
+    font-family: 'Helvetica-Thin';
+    position: relative;
+    color: #FFB600;
+}
+ ::placeholder {
+    color: #FFFFFF;
+    opacity: .6; 
+  }
+.pwc-logo-login {
+    height: 86px;
+    width: 111px !important;
+    display: flex;
+    position: relative;
+    top: 111px;
+    margin-left: 130px;
+}
+
+.cog-logo-login {
+    height: 45px;
+    width: 200px !important;
+    display: flex;
+    position: relative;
+    top: 190px;
+    margin-left: 126px;
+}
+
+.loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.loader {
+    width: 20px; 
+    height: 20px; 
+    border: 4px solid transparent; 
+    border-radius: 50%; 
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { 
+        transform: rotate(0deg); 
+        border-top-color: #ff5733;
+        border-bottom-color: #ff5733; 
+    }
+    50% {
+        border-top-color: #ffffff; 
+        border-bottom-color: #ffffff; 
+    }
+    100% { transform: rotate(360deg); }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .login-cognixio-card {
+        padding: 0px;
+        margin-top: -75px !important;
+        height: 301px !important;
+        width: 264px !important;
+    }
+
+    .Sign-in {
+        font-size: 16px;
+    }
+
+    .form_label {
+        font-size: 11px;
+        margin-top: -12px;
+    }
+
+    .loginBtn {
+        font-size: 12px;
+        width: 84px;
+        height: 32px;
+    }
+
+    .remember-me {
+        font-size: 12px;
+    }
+
+    .form_control {
+        width: calc(100% - 117px);
+        padding: 5px 0;
+        margin-bottom: 5px;
+        border-radius: 0;
+        background-color: transparent;
+        outline: none;
+        margin-left: 57px !important;
+    }
+
+    input {
+        font-size: 10px;
+    }
+
+    .pwc-logo-login {
+        height: 66px;
+        width: 89px !important;
+        top: 71px;
+        margin-left: 77px;
+    }
+
+    .cog-logo-login {
+        height: 32px;
+        width: 142px !important;
+        top: 127px;
+        margin-left: 79px;
+    }
+
+    .login-text-h {
+        top: 147px;
+        font-size: 26px !important;
+        margin-left: 82px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1230px) {
+    .login-cognixio-card {
+        padding: 7px;
+        margin-top: -88px !important;
+        height: 363px !important;
+        width: 317px !important;
+    }
+
+
+    .Sign-in {
+        font-size: 19px;
+        margin-bottom: 16px;
+        opacity: 1;
+        letter-spacing: 1.41px;
+        padding: 20px;
+        margin-left: 37px !important;
+    }
+
+    .form_label {
+        margin-left: 58px;
+        font-size: 13px;
+
+    }
+
+    .form_control {
+        width: calc(100% - 117px);
+        padding: 5px 0;
+        margin-bottom: 5px;
+        border-radius: 0;
+        margin-left: 57px !important;
+    }
+
+    .remember-me {
+        font-size: 12px;
+    }
+
+    .loginBtn {
+        padding: 5px 14px;
+        margin-left: 63px !important;
+        font-size: 14px;
+        width: 110px;
+    }
+
+    .pwc-logo-login {
+        height: 80px;
+        width: 105px !important;
+        top: 88px;
+        margin-left: 105px;
+    }
+
+    .cog-logo-login {
+        height: 41px;
+        width: 174px !important;
+        top: 155px;
+        margin-left: 106px;
+    }
+
+    .login-text-h {
+        top: 176px;
+        font-size: 32px !important;
+        margin-left: 108px;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1231px) and (max-width: 1400px) {
+    .login-cognixio-card {
+        background: #D04A02 0% 0% no-repeat padding-box;
+        box-shadow: -34px 0px 22px #00000029;
+        padding: 18px;
+        /* border-radius: 8px; */
+        /* width: 300px; */
+        margin-left: auto;
+        /* margin-right: 0px; */
+        margin-top: -87px !important;
+        height: 410px !important;
+        width: 361px !important;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1560px) {
+    .login-cognixio-card {
+        padding: 25px;
+        margin-top: -101px !important;
+        height: 451px !important;
+        width: 398px !important;
+    }
+
+    .pwc-logo-login {
+        height: 101px;
+        width: 134px !important;
+        top: 120px;
+        margin-left: 143px;
+    }
+
+    .cog-logo-login {
+        height: 51px;
+        width: 221px !important;
+        top: 201px;
+        margin-left: 145px;
+    }
+
+    .login-text-h {
+        top: 229px;
+        font-size: 40px !important;
+        margin-left: 149px;
+    }
+
+}
+

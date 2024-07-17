@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+@font-face {
+  font-family: 'Helvetica-Thin';
+  src: url('./assets/font/HELVETICANEUELTPRO-TH.TTF') format('truetype');
+  /* Add other font variations (Bold, Italic, etc.) if needed */
+}
+ @font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/font/HelveticaNeueLight.otf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('./assets/font/HelveticaNeueBold.otf') format('truetype');
+}
+
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  overflow: auto;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* path {
+  fill: #2a354d;
+} */
+
+.blink {
+  color: red;
+  margin-right: 0.5rem;
+  /* height: 20px;  */
+  transition: height 0.5s ease; /* Add smooth transition for height */
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  50% {
+    visibility: hidden;
+    height: 10px; /* Set your minimum height */
+  }
+  to {
+    visibility: hidden;
+    height: 30px; /* Set your maximum height */
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    visibility: hidden;
+    height: 10px;
+  }
+  to {
+    visibility: hidden;
+    height: 30px;
+  }
+}
+
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-icon {
+  animation: blink 1s infinite;
+  color: #0191E0;
+}
+.sound-color {
+  color: #0191E0;
+}
+
+/* 
+.custom-chart .apexcharts-legend {
+    color: white !important;
+} */
+.custom-chart .apexcharts-legend-text {
+  fill: #ff0000; 
+}
+/* .css-1hgtumy-MuiButtonBase-root-MuiTab-root { */
+.css-6zyozi-MuiButtonBase-root-MuiTab-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.25;
+  text-transform: uppercase;
+  max-width: 360px;
+  min-width: 90px;
+  position: relative;
+  min-height: 20px !important;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 12px 16px;
+  overflow: hidden;
+  white-space: normal;
+  text-align: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.css-19kzrtu {
+  padding: 0px !important;
+}
+.css-pvrq0o-MuiStack-root>.MuiTextField-root {
+  min-width: 50px !important;
+}
+/* .css-1u7bw21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
+} */
+.css-ksjy07 > .MuiTextField-root {
+  min-width: 50px !important;
+  width: 100% ;
+}
+
+
+
+
+
+.footer-c {
+  background-color: rgb(46, 44, 44);
+  color:#d5d2d2f0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+  letter-spacing: .6px
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1230px) {
+  .footer-c {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1231px) and (max-width: 1420px) {}
+
+/* Media Query for Large screens */
+@media (min-width: 1421px) {}

@@ -1,0 +1,121 @@
+.App {
+    text-align: center;
+    /* background-image: url('../../src/assets/image/bcr.jpeg'); */
+    background-image: url('../assets/image/bg-6.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+.loginContainerSecondHalf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    float:right;
+}
+
+.loginContainerSecondHalf section {
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* background: rgba(255, 255, 255, 0.5); */
+    /* background: white; */
+    padding: 2rem;
+    border-radius: 10px;
+    margin-right: 20%;
+}
+
+.loginContainerSecondHalf section div {
+    margin-bottom: 0.5rem;
+}
+
+.loginContainerSecondHalf section label {
+    height: 2px;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.from_style {
+    margin-top: 7%;
+}
+
+.form_control {
+    
+    margin-bottom: 22px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom-color: #00B0F0;
+    border-radius: 4px;
+    padding: 8px;
+    color: rgb(252, 251, 251);
+    
+}
+
+.form_label{
+    /* color: #004b66; */
+    color: rgb(190, 206, 219);
+}
+.form_control:focus {
+    outline: none !important;
+}
+
+.loginBtn {
+    /* background-color: #004b66; */
+    background-color: #0c688a;
+    height: 40px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: #015b7c;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+.welcomeContainer h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 270px;  
+    width: 100%
+}
+.welcomeContainer {
+    width: 40%;  
+    padding: 20px; 
+    border-radius: 5px; 
+    margin-right: 20px;  
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .loginContainerSecondHalf {
+        width: 40%;
+    }
+}

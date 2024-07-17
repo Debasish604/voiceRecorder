@@ -1,0 +1,205 @@
+.chat_div {
+  height: 400px;
+  min-width: 540px;
+  max-width: 540px;
+  overflow-y: auto;
+  border: 1px solid #075183;
+  border-radius: 6px;
+  padding: 10px
+}
+
+.send_button {
+  background-color: #276187;
+  /* color: white; */
+  height: 45px;
+  width: 75px;
+  border-radius: 6px;
+}
+
+.send_button:hover {
+  background-color: rgb(6, 63, 89);
+}
+
+.input_filed {
+  width: 85%;
+    margin-right: 5px;
+    height: 44px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid #075183;
+    padding-left: 10px
+}
+
+.option_btn {
+  margin-right: 5px;
+  height: 32px;
+  width: 60px;
+  border-radius: 6px;
+  background-color: #276187;
+  margin-bottom: 1rem;
+}
+
+.option_btn:hover {
+  background-color: #6782a4;
+}
+
+
+.bouncing-loader {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: left;
+  margin: 30px auto;
+}
+
+.bouncing-loader>div {
+  width: 14px;
+  height: 14px;
+  margin: 3px 6px;
+  border-radius: 50%;
+  background-color: #075183;
+  opacity: 1;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+
+@keyframes bouncing-loader {
+  to {
+    opacity: 0.1;
+    transform: translateY(-16px);
+  }
+}
+
+.bouncing-loader>div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bouncing-loader>div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.client_box_container {
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.client_text {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  height: 42px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: linear-gradient(0deg, #4f90bc, #186ba2);
+  border: none;
+  letter-spacing: 0.05em;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.client_box {
+  margin-bottom: 10px;
+}
+
+.client_box input[type="radio"] {
+  display: none;
+}
+
+.client_box label {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  cursor: pointer;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.client_box input[type="radio"]+label:before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #3498db;
+  background-color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.client_box input[type="radio"]:checked+label {
+  background-color: #A8DDFD;
+  color: #333;
+}
+
+.client_box input[type="radio"]:checked+label:before {
+  background-color: #ad5389;
+  border-color: #000;
+  color: #961010;
+}
+
+
+/* Apply some basic styling to the table */
+table {
+  width: 100% !important;
+  border-collapse: collapse;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+/* Style the table header */
+/* thead {
+  background-color: #cfd4d7; 
+  color: #fff !important; 
+ 
+} */
+
+th {
+  padding: 8px !important;
+  /* Adjust the padding for cells */
+  text-align: left;
+  color: black !important;
+  font-weight: bold !important;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 8px !important;
+  /* Adjust the padding for cells */
+  text-align: left;
+  color: black !important;
+  border-bottom: 1px solid #ddd;
+}
+
+/* tbody tr:nth-child(even) {
+  background-color:rgb(40, 49, 49); 
+}
+
+tbody tr:nth-child(odd) {
+  background-color:#05456d; 
+} */
+
+tbody tr:hover {
+  background-color: #d6ccef;
+}
+
+.option_btn1 {
+  margin-right: 5px;
+  height: 32px;
+  width: 200px;
+  border-radius: 6px;
+  background-color: #276187;
+  margin-bottom: 1rem;
+}
+
+.option_btn1:hover {
+  background-color: #6782a4;
+}
